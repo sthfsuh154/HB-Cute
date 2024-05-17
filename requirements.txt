@@ -1,4 +1,4 @@
-aiofiles
+aiofiles>=3.9.3
 bard
 pornhub-api==0.2.0
 aiohttp==3.9.1
