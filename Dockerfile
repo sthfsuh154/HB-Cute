@@ -7,6 +7,7 @@ RUN apt-get update \
 
 COPY . /app/
 WORKDIR /app/
-RUN pip3 install --upgrade pip && pip3 install --no-cache-dir -U -r requirements.txt
+RUN pip3 install --upgrade pip
+RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 CMD bash start
