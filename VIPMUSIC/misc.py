@@ -12,7 +12,6 @@ from .logging import LOGGER
 SUDOERS = filters.user()
 
 HAPP = None
-clonedb = None
 _boot_ = time.time()
 
 
