@@ -79,7 +79,7 @@ chat_id_env = environ.get("CHAT_ID")
 CHAT_ID = [int(app) for app in chat_id_env.split(",")] if chat_id_env else []
 
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "**☆ . * ● ¸ . ✦ .★　° :. ★ * • ○ ° ★**\n**💕 {mention}**\n\n**𝑈𝑛𝑎𝑘𝑢 𝑊𝑒𝑙𝑐𝑜𝑚𝑒 𝑂𝑟𝑢 𝐾𝑒𝑑𝑢 😒**\n\n**➻** {title}\n\n**𝐼𝑣𝑎𝑛𝑢𝑘𝑢𝑚 𝑂𝑟𝑢 𝑃𝑎𝑦𝑎𝑠𝑎𝑡ℎ𝑎 𝑃𝑜𝑡𝑟𝑎 𝑉𝑒𝑛𝑑𝑖𝑦𝑎𝑑ℎ𝑎𝑛 🙊😏🫀**\n**☆ . * ● ¸ . ✦ .★　° :. ★ * • ○ ° ★**")
-APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
+APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # List of random photo links
 random_photo_links = [
